@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HelloWorld #Alpaca | HTML and JavaScript</title>
+</head>
+<body>
+        <BODY bgcolor="yellow"></BODY>
+    <button onclick="myFunction()">::โปรเเกรมคำนวณ::</button>
+    <fieldset>
+        <legend>::ตัวอย่าง::</legend>
+        <center>
+            <img src="http://www.prachachat.net/online/2015/07/14379268451437926983l.jpg" width = "300" >
+            <br>
+            -----------------------------------------------
+            <br>
+            <img src="hwalpaca-teamassignment-01.gif" alt="รูปภาพการทำงานของโปรแกรม">
+            <br>
+            -----------------------------------------------
+            <br>
+            <img src="https://img.kapook.com/u/2016/surattana/bell01/march/01/minion.jpg" width = "300" >
+        </center>
+    </fieldset>
+
+    <p id="demo"></p>
+    <script type="text/javascript">
+
+    function myFunction(){
+        var width = prompt("ความกว้าง : ","");
+        var length = prompt("ความยาว : ","");
+
+        if (width > 0 && length > 0) {
+           
+                document.getElementById("demo").innerHTML =
+                    window.alert("ความยาวรอบรูป : " + rectanglePerimeter(width, length) + " หน่วย\n" + "พื้นที่ : " +
+                        rectangleArea(width, length) + " ตารางหน่วย");
+         
+        } else
+            document.getElementById("demo").innerHTML =
+            window.alert("ความยาวรอบรูป : " + rectanglePerimeter(width, length) + " หน่วย\n" + "พื้นที่ : " +
+                rectangleArea(width, length) + " ตารางหน่วย");
+    }
+
+    let rectanglePerimeter = (width, length) => {
+        var perimeter = ((width * length)*2) ;
+        return perimeter;
+        
+}
+      
+   
+    let rectangleArea = (width, length) => {
+        var area = (width * length) ;
+        return area;
+        
+}
+    </script>
+    <marquee behavior="scroll" direction="right">เหนื่อยเราไม่เหนื่อย ผ่ามผ้าม!!</marquee>
+</body>
+</html>

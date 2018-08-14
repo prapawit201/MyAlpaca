@@ -1,0 +1,21 @@
+.changefontsize{
+    font-size: 50px;
+}
+.changecolor{
+    color:deeppink;
+}
+.changecolor1{
+    color: blue;
+}
+.changeweight{
+    font-weight: bold;
+}
+.changefont{
+    font-family: 'Itim';
+    /* ในที่นี้ใช้ Font Itim ที่ลิ้งจาก fonts.google.com หากไม่มีเน็ตแล้วเปิดไฟล์นี้ฟ้อนต์จะไม่เปลี่ยน */
+    font-size:30px;
+}
+.makeitcenter{
+    text-align: center;
+    font-size:30px;
+}
